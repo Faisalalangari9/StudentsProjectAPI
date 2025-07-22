@@ -1,7 +1,7 @@
 ﻿namespace StudentsProjectAPI.Models.DTO
 {
 
-    public class GetAllStudentsDTO
+    public class GetAllStudentsDTO  //Returning a list of all students with their department names.
     {
         public int Id { get; set; }
         public string Name { get; set; }
